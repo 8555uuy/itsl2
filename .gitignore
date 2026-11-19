@@ -1,0 +1,41 @@
+# ---- .NET 构建产物 ----
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- Visual Studio ----
+.vs/
+*.vsidx
+*.futdcache.v2
+*.dtbcache.v2
+
+# ---- Rider ----
+.idea/
+*.sln.iml
+
+# ---- 编译输出 ----
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# ---- 下载/运行时产生的数据 ----
+# 启动器运行后会在桌面建 itsl2 目录下载游戏文件，这里不该进版本库
+libraries/
+versions/
+assets/
+saved_path.txt
+*.tmp
+
+# ---- 系统文件 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- 备份 ----
+备份_*/
+_备份/
